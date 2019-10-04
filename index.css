@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #46B280;
+  color: white;
+  height: 100%;
+  text-align: center;
+}
+
+.logo {
+  background-image: url(logo.jpg);
+  background-size: 100% 100%;
+  display: grid;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  height: -moz-available;
+  height: -webkit-fill-available;
+}
+
+.logo a {
+  color: darkmagenta;
+  font-size: 40px;
+  text-decoration: none;
+}
